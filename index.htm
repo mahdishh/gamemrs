@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Catch The Insect</title>
+  </head>
+  <body>
+    <div class="screen">
+      <h1>شکار استاد صالحی</h1>
+      <button class="btn" id="start-btn">شروع بازی</button>
+    </div>
+
+    <div class="screen">
+      <h1>استاد صالحی مورد علاقه شما کدام است ؟</h1>
+      <ul class="insects-list">
+        <li>
+          <button class="choose-insect-btn">
+            <p>خندان  </p>
+            <img src="images/m-1.jpg" alt="fly">
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>عاشق</p>
+            <img
+               src="images/m-2.jpg"
+               alt="mosquito"
+               />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>متعصب</p>
+            <img
+               src="images/m-3.jpg"
+               alt="spider"
+               />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p> بدون مو</p>
+            <img
+               src="images/m-4.jpg"
+               alt="roach"
+               />
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="screen game-container" id="game-container">
+      <h3 id="time" class="time">زمان: 00:00</h3>
+      <h3 id="score" class="score">امتیاز: 0</h3>
+      <h5 id="message" class="message">
+       هنوز خسته نشدی دوست من ؟ <br>
+       🥲 شکار استاد صالحی غیرممکنه تو قدرت تمام کردنش را نداری عزیزم
+      </h5>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
